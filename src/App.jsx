@@ -1,17 +1,17 @@
 import React from 'react'
-import { BrowerRouter, Route, Router } from "react-router-dom"
+import { BrowserRouter, Route, Router,Routes } from "react-router-dom"
 import Login from './Login/Login'
 
 
 function App() {
   return (
     <>
-      <BrowerRouter>
-        <Router>
+      <BrowserRouter>
+        <Routes>
           <Route path='/login' element={<Login />} />
 
-        </Router>
-      </BrowerRouter>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
