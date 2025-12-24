@@ -259,7 +259,7 @@ const LandingPage = () => {
                 {/* Category Section */}
                 <section className="max-w-7xl mx-auto px-4 md:px-8 py-12">
                     <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-8">
-                        <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
+                        <span className=" category-text  ">
                             Shop by Category
                         </span>
                     </h2>
@@ -290,7 +290,7 @@ const LandingPage = () => {
                 {/* Popular Products Section */}
                 <section className="max-w-7xl mx-auto px-4 md:px-8 py-16">
                     <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">
-                        <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
+                        <span className="popular-text">
                             Popular Products
                         </span>
                     </h2>
@@ -324,7 +324,7 @@ const LandingPage = () => {
                 {/* Recommended for You Section */}
                 <section className="max-w-7xl mx-auto px-4 md:px-8 py-16">
                     <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">
-                        <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
+                        <span className="recommended-text">
                             Recommended for You
                         </span>
                     </h2>

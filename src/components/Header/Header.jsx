@@ -101,8 +101,9 @@ const Header = ({ toggleSearch, isLoggedIn = false, userProfile = null }) => {
                     {/* Conditional Rendering: Get Started vs Profile */}
                     {!isLoggedIn ? (
                         // For New Users - Get Started Button
+
                         <button className="get-started-btn">
-                            Get Started
+                            Login
                         </button>
                     ) : (
                         // For Logged-In Users - Profile Dropdown

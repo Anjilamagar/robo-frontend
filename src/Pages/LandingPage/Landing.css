@@ -689,7 +689,29 @@
 /* =========================
    CATEGORY SECTION
 ========================= */
-main>section:nth-child(2) {
+.category-text {
+    color: linear-gradient(135deg,
+            var(--color-primary) 0%,
+            var(--color-primary-lighter) 100%);
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.popular-text {
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.recommended-text {
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+
+.main>section:nth-child(2) {
     max-width: 1280px !important;
     margin: 0 auto !important;
     padding: 3rem 2rem !important;
