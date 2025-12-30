@@ -6,6 +6,7 @@ import HeaderUser from './components/Header/HeaderUser'
 import Footer from './components/Footer/Footer'
 import LandingPage from './Pages/LandingPage/LandingPage'
 import CustomizeRequest from './Pages/CustomizeRequest/CustomizeRequest'
+import AdminDashboard from './Pages/CustomizeRequest/AdminDashboard'
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           <Route path='/header' element={<Header />} />
           <Route path='/footer' element={<Footer />} />
           <Route path='/custom' element={<CustomizeRequest />} />
+
+          <Route path='/admin' element={<AdminDashboard />} />
+
 
 
 
