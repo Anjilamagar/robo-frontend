@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Login = () => {
+    
   return (
     <div>
           <div className="bg-white flex items-center justify-center h-screen">
@@ -11,14 +12,14 @@ const Login = () => {
         <img src="logo.png" alt="Logo" className="w-20  flex h-50 drop-shadow-[0_0_25px_#a855f7]"/>
         </div>
 
-        <h1 className="text-4xl text-center font-bold mb-2 text-black drop-shadow-[0_0_20px_#a855f7]">
+        <h1 className="text-4xl text-primary text-center font-bold mb-2 text-black drop-shadow-[0_0_20px_#a855f7]">
             Welcome Back
         </h1>
 
         
         <div className="bg-[#16213e] border border-[#6b21a8] rounded-2xl shadow-xl shadow-[#6b21a8]/40 w-96 p-8">
 
-            <h1 className="text-2xl font-bold text-center text-purple-200 mb-2 drop-shadow-[0_0_10px_#a855f7]">
+            <h1 className="text-2xl font-poppins font-bold text-center text-purple-200 mb-2 drop-shadow-[0_0_10px_#a855f7]">
                 Login
             </h1>
 
@@ -59,7 +60,7 @@ const Login = () => {
             </div>
 
             <button 
-                className="w-full border border-[#a855f7] text-white py-2 rounded-lg hover:bg-[#a855f7]/20 transition-all">
+                className="w-full text-primary border border-[#a855f7] text-white py-2 rounded-lg hover:bg-[#a855f7]/20 transition-all">
                 Sign Up
             </button>
         </div>

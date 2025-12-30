@@ -1,12 +1,11 @@
 import React from 'react'
 
-const LandingPage = () => {
+const UpdateProduct = () => {
   return (
     <div>
       
-    
     </div>
   )
 }
 
-export default LandingPage
+export default UpdateProduct
